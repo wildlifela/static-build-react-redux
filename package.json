@@ -10,7 +10,7 @@
         "react-tappable": "^0.7.1",
         "redux": "^3.0.4",
         "redux-thunk": "^1.0.0",
-        "history": "^1.13.1",
+        "history": "^1.13.1"
 
 
 },
