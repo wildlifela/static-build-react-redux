@@ -11,7 +11,7 @@ module.exports = {
             ]
         },
         options:{
- 
+            watchTask: true,
             server: {
                 baseDir: 'public'
             }

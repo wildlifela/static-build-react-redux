@@ -1,5 +1,7 @@
 module.exports = {
-
+    options: {
+        nospawn: true
+    },
     jade: {
         files: [
             'src/jade/*.jade'
@@ -15,7 +17,7 @@ module.exports = {
     },
     sass: {
         files: ['src/scss/**/*.scss'],
-        tasks: ['sass:dev','autoprefixer']
+        tasks: ['sass:dev','postcss:dev']
     }
 
 };
